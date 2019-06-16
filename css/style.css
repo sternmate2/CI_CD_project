@@ -54,11 +54,11 @@ body{
 /*showcase*/
 
 #showcase{
-  background:url('../images/ss1.jpg') no-repeat center center;
+  background:url('../images/ss2.jpg') no-repeat center center;
   border-bottom:1px solid #56a79a;
   margin-bottom:30px;
 }
 
 #showcase .row{
-  height:600px;
+  height:800px;
 }
