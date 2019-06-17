@@ -54,11 +54,31 @@ body{
 /*showcase*/
 
 #showcase{
-  background:url('../images/ss5.jpg') no-repeat center center;
+  background:url('../images/ss.jpg') no-repeat center center;
   border-bottom:1px solid #56a79a;
   margin-bottom:30px;
 }
 
 #showcase .row{
-  height:560px;
+  height:600px;
 }
+
+#showcase h1{
+  font-size:50px;
+  margin:0;
+  padding-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
