@@ -60,7 +60,7 @@ body{
 
 #showcase{
   background:url('../images/ss5.jpg') no-repeat center center;
-  border-bottom:1px solid #56a79a;
+  border-bottom:2px solid #56a79a;
   margin-bottom:30px;
 }
 
@@ -79,9 +79,8 @@ body{
 footer{
   padding:20px;
   margin-top:20px;
-  color:#ffffff;
   background-color:#56a79a;
-
+  border-top:4px solid #35424a;
 }
 
 
