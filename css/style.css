@@ -1,6 +1,6 @@
 body{
   font-family:'Open-sans', sana-serif;
-  font-sioze:17px;
+  font-size:17px;
   line-height:1.5em;
   margin:0;
   padding:0;
@@ -66,8 +66,7 @@ body{
 #showcase h1{
   font-size:50px;
   margin:0;
-  padding-bottom:20px;
-  vertical-align: bottom;
+  padding-bottom:0;
 }
 
 
