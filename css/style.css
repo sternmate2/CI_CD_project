@@ -28,6 +28,9 @@ body{
   border-bottom:1px solid #56a79a;
   background:#35424a;
   color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-botton:#e849id 4px solid;
 }
 
 /*navbar*/
