@@ -30,7 +30,7 @@ body{
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-/*  border-botton:#e849id 4px solid;*/
+/*  border-botton:#e8491d 4px solid;*/
 }
 
 /*navbar*/
@@ -74,7 +74,15 @@ body{
   padding-bottom:20px;
 }
 
+/*footer*/
 
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#56a79a;
+
+}
 
 
 
