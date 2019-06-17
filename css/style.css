@@ -76,13 +76,9 @@ body{
 
 /*features*/
 
-image1{
-  border-radius: 70%;
+#features .image1{
+  border-radius:70%;
 }
-
-
-
-
 
 
 
