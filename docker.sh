@@ -1,8 +1,10 @@
+#!/bin/sh
 
-#sudo docker run -d -p 1010:80 --name WebSrv httpd:2.4 &&
-#sudo docker cp ~/ci_cd/index.html WebSrv:/usr/local/apache2/htdocs/ &&
-#sudo docker cp ~/ci_cd/css WebSrv:/usr/local/apache2/htdocs/css &&
-#sudo docker cp ~/ci_cd/images WebSrv:/usr/local/apache2/htdocs/images 
-sudo docker build -t . &&
-sudo docker run -d httpd:2.4 
+rsync -avz ./docker.sh shahar@192.168.1.109:/var/www//html/docker.sh &&
 
+ssh shahar@192.168.1.109 "cd /var/www/html/ ; docker build -t apache2 ."
+
+
+
+#sudo docker build -t . &&
+#sudo docker run -d httpd:2.4 
