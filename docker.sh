@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rsync -avz ./docker.sh shahar@192.168.1.109:/var/www//html/docker.sh &&
+#rsync -avz ./docker.sh shahar@192.168.1.109:/var/www//html/docker.sh &&
 
 ssh shahar@192.168.1.109 "cd /var/www/html/ ; docker build -t apache2 ." &&
 
