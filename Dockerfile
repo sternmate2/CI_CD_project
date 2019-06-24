@@ -1,3 +1,6 @@
-FROM httpd:2.4
-#COPY /var/www/html/index.html/ /usr/local/apache2/htdocs/
-
+FROM centos:latest
+MAINTAINER NewstarCorporation
+RUN yum -y install httpd
+COPY index.html /var/www/html/
+CMD [“/usr/sbin/httpd”, “-D”, “FOREGROUND”]
+EXPOSE 80
