@@ -1,2 +1,2 @@
-FROM agnesesalutari/32bit-ubuntu-apache
+FROM 32bit/ubuntu
 COPY ./index.html /var/index.html
