@@ -1,2 +1,2 @@
-FROM 32bit/ubuntu
+FROM i686/ubuntu
 COPY ./index.html /var/index.html
