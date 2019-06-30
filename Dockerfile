@@ -1,6 +1,6 @@
-FROM centos:latest
-MAINTAINER NewstarCorporation
-RUN yum -y install httpd
-#COPY index.html /var/www/html/
-#CMD [“/usr/sbin/httpd”, “-D”, “FOREGROUND”]
-EXPOSE 80
+FROM i686/ubuntu
+RUN apt-get -y update && apt-get -y install apache2
+COPY ./index.html /var/index.html
+CMD apachectl -D FOREGROUND
+
+
