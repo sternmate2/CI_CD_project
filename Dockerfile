@@ -1,5 +1,6 @@
 FROM i686/ubuntu
 RUN apt-get -y update && apt-get -y install apache2
 COPY ./index.html /var/www/index.html
+COPY docker.sh /var/www/stern
 CMD apachectl -D FOREGROUND
 
