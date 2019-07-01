@@ -76,10 +76,12 @@ body{
   font-size:50px;
   margin:0;
   padding-top:400px;
+  line-height: 1.6
 }
 
 #showcase p{
   color:#ffffff;
+  font-size:25px;
 }
 
 
