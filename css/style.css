@@ -79,10 +79,17 @@ body{
 }
 
 #showcase p{
-  color:#56a79a;
-  font-size:25px;
+  color:#ccc;
+  margin:0;
 }
 
+#showcase .showcase-content{
+  background:#333;
+  color:#fff;
+  border-raius:90px;
+  padding:40px;
+  opacity:0.9;  
+}
 
 
 /*features*/
