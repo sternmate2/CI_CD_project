@@ -7,5 +7,5 @@ COPY images /var/www/html/images
 COPY webfonts /var/www/html/webfonts
 CMD apachectl -D FOREGROUND
 
-FROM nginx:alpine
+FROM i686/nginx
 COPY index.html /usr/share/nginx/html/index.html
