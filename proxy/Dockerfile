@@ -1,5 +1,5 @@
 FROM i686/ubuntu
 RUN apt-get -y update && apt-get -y install nginx
-COPY ./apache.conf /etc/nginx/site-enabled/default
+ADD default.conf /etc/nginx/conf.d/
 CMD ["nginx", "-g", "daemon off;"]
 
