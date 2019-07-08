@@ -4,7 +4,7 @@ COPY ./index.html /var/www/html/index.html
 COPY css /var/www/html/css
 COPY images /var/www/html/images
 COPY webfonts /var/www/html/webfonts
-CMD apachectl -D FOREGROUND
 CMD export http_proxy=nginx:80
+CMD apachectl -D FOREGROUND
 
 
